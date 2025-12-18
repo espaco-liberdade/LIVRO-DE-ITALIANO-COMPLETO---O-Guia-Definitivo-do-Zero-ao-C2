@@ -66,6 +66,39 @@
       padding: 0 20px;
     }
 
+    /* ESTILOS DO ALERTA (Novo) */
+    .alert-box {
+      background-color: #fff3cd; /* Fundo amarelo claro */
+      color: #856404; /* Texto amarelo escuro */
+      border: 1px solid #ffeeba;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 40px; /* Espaço antes do botão de destaque */
+      font-size: 0.9em; /* Letra menor */
+      box-shadow: var(--card-shadow);
+    }
+
+    .alert-box h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #856404;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.1em;
+      font-weight: 700;
+    }
+
+    .alert-box ul {
+      margin: 10px 0 0 20px;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .alert-box li {
+      margin-bottom: 5px;
+    }
+
     /* Botão de Destaque (Topo) */
     .destaque-btn {
       display: block;
@@ -227,6 +260,23 @@
   </header>
 
   <div class="container">
+
+    <!-- ALERTA DE COMPATIBILIDADE DE ÁUDIO (NOVO) -->
+    <div class="alert-box">
+      <h4>🔊 Compatibilidade de Áudio</h4>
+      <p>
+        Para melhor funcionamento dos áudios, utilize o <strong>Google Chrome (Android)</strong> ou <strong>Safari (iPhone)</strong>. 
+        O navegador da Xiaomi (Mi Browser) não é compatível com os áudios deste material, mas é muito simples resolver: basta baixar o navegador Chrome!
+      </p>
+      <p><strong>👉 Se estiver usando outro navegador no Android:</strong></p>
+      <ul>
+        <li>1. Abra <strong>Configurações</strong> do celular</li>
+        <li>2. Vá em <strong>Aplicativos</strong> → <strong>Aplicativos padrão</strong></li>
+        <li>3. Toque em <strong>Navegador</strong></li>
+        <li>4. Selecione <strong>Google Chrome</strong></li>
+        <li>5. Feche e abra novamente o link da aula.</li>
+      </ul>
+    </div>
 
     <!-- BOTÃO DESTAQUE TOPO -->
     <a href="https://espaco-liberdade.github.io/ItalianoAula0/" class="destaque-btn">
